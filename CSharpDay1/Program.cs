@@ -1,4 +1,6 @@
-﻿// 1. Output
+﻿// Note: Uncomment required section before executing
+
+// 1. Output
 //Console.WriteLine("Hello Nisuga");
 
 // 2. Input
