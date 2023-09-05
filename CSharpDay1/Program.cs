@@ -18,7 +18,7 @@
 // variables -------------------
 
 
-// decimal means the base is 10. decimals have a large precision than any other built-in binary floatin point types.
+// decimal means the base is 10. decimals have a large precision than any other built-in binary floating point types.
 
 
 //char gender = 'F';
