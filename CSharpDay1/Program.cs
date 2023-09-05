@@ -229,7 +229,7 @@ Console.WriteLine(CheckMember(people[0]));
 
 /** 12. OOP **/
 using CSharpDay1;
-
+/**
 BankAccount acc1 = new BankAccount("Nisuga J", 50000);
 BankAccount acc2 = new BankAccount("Nish J", 500);
 
@@ -242,7 +242,9 @@ acc1.Withdraw(4000, DateTime.Now, "McDonalds");
 
 Console.WriteLine(acc1.Balance);
 Console.WriteLine(acc1.GetAccountStatement());
+**/
 
+/**
 Person person = new Person()
 {
     FirstName = "Nisuga",
@@ -251,8 +253,25 @@ Person person = new Person()
 };
 
 person.PrintDetails();
+**/
 
+/**
+// Class inheritance
+//  base class  methods with 'virtual' keyword can be overriden by a sub class.
 
+using CSharpDay1.inheritance;
+
+Student ryan = new Student()
+{
+    Id = "65132",
+    FullName = "Ryan Bolt",
+    Created = DateTime.Now,
+    CreatedById = "65132"
+};
+
+Console.WriteLine(ryan.GetDetails());
+
+**/
 
 
 
