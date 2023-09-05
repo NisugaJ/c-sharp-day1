@@ -266,14 +266,17 @@ Student ryan = new Student()  // Student class inherits from Audit class
     Id = "65132",
     FullName = "Ryan Bolt",
     Created = DateTime.Now,
-    CreatedById = "65132"
+    CreatedById = "95412" // administrator's id
 };
 
 Console.WriteLine(ryan.GetDetails());
 
 **/
 
+/**
+Class members
 
+**/
 
 
 
