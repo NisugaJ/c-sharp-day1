@@ -2,7 +2,7 @@
 
 using System.Text;
 
-namespace CSharpDay1.inheritance
+namespace CSharpDay1.Inheritance
 {
     internal class Audit
     {

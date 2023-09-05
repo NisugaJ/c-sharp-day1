@@ -259,7 +259,7 @@ person.PrintDetails();
 // Class inheritance
 //  base class  methods with 'virtual' keyword can be overriden by a sub class.
 
-using CSharpDay1.inheritance;
+using CSharpDay1.Inheritance;
 
 Student ryan = new Student()  // Student class inherits from Audit class
 {
