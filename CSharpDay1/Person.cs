@@ -3,6 +3,8 @@ namespace CSharpDay1
 {
     internal class Person
     {
+        // test comment 
+
         private string lastName;
         public string? FirstName { get; set; }
         public required string LastName // 'required' attributed can assigned a value only at initialization
