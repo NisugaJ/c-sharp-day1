@@ -261,7 +261,7 @@ person.PrintDetails();
 
 using CSharpDay1.inheritance;
 
-Student ryan = new Student()
+Student ryan = new Student()  // Student class inherits from Audit class
 {
     Id = "65132",
     FullName = "Ryan Bolt",
