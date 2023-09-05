@@ -5,7 +5,7 @@ namespace CSharpDay1
     {
         private string lastName;
         public string? FirstName { get; set; }
-        public required string LastName // 'required' attributed can assigned a value only at initialization
+        public required string LastName // 'required' attribute can assigned a value only at initialization
         {   
             get => lastName; // returns value of lastName
 
