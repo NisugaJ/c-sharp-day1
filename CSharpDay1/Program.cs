@@ -306,6 +306,32 @@ Console.WriteLine(DivideNumber(10, 10));
 **/
 
 
+/**
+ * Records
+ * 
+ * Note: 
+ * Records are immutable. Record objects cannot be altered.
+ * Two Record instances will be equal, if all corresponding attribute values are equal.
+ **/
+// Member is a Record
+Member m1 = new Member("Nisuga", "Jayawardana", 25);
+Member m2 = new Member("Nisuga", "Jayawardana", 25);
+Console.WriteLine(m1 == m2); // True
+
+// Class instances are never equal even when attribute values are equal
+Person p1 = new Person(){
+   FirstName= "Nisuga", 
+   LastName="Jayawardana", 
+   BasicSalary =50000 
+};
+Person p2 = new Person()
+{
+    FirstName = "Nisuga",
+    LastName = "Jayawardana",
+    BasicSalary = 50000
+};
+Console.WriteLine(p1 == p2); // False
+
 //---------------------------------
 //---------------------------------
 //---------------------------------
