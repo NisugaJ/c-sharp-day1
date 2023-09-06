@@ -274,11 +274,36 @@ Console.WriteLine(ryan.GetDetails());
 **/
 
 /**
-Class members
+// Exceptions 
 
+decimal DivideNumber(decimal num1, decimal num2)
+{
+    decimal answer = 0;
+    try
+    {
+        if (num1 == num2){
+            throw new CustomException();
+        }
+        answer =  num1 / num2;
+    }
+    catch(CustomException e)
+    {
+        Console.WriteLine($"An error occured. {e.Message}");
+    }
+    catch (DivideByZeroException)
+    {
+        Console.WriteLine("The divisor cannot be 0");
+    }
+    catch (Exception e) {
+        Console.WriteLine($"An error occured. {e.Message}");
+    }
+    
+    return answer;
+}
+
+
+Console.WriteLine(DivideNumber(10, 10));
 **/
-
-
 
 
 //---------------------------------
@@ -300,3 +325,9 @@ Console.ReadKey();
 // namespaces and type declarations
 record Member(string FirstName, string LastName, int Age);
 
+public class CustomException : Exception
+{
+    public CustomException()
+    : base("Custom Error message.")
+    { }
+}
